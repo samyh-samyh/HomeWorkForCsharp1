@@ -10,10 +10,3 @@ int day = int.Parse(Console.ReadLine());
 for (;day<6 && day>=1;) {Console.WriteLine($"{day} является рабочим"); break;}
 for (;day>=6 && day<=7;) {Console.WriteLine($"{day} является выходным");break;}
 for (;day<=0 || day>=8;) {Console.WriteLine($"значение {day} некорректно"); break;}
-
-
-
-    //if (day>=1) Console.WriteLine($"{day} является рабочим");
-    //if (day>=6) Console.WriteLine($"{day} является выходным");
-    //else Console.WriteLine($"значение {day} некорректно");
-    //break;
